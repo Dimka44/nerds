@@ -445,6 +445,263 @@ textarea {
 [скрыто] {
   display: none;
 }
+* {
+  box-sizing: border-box;
+}
 body {
 	font-family: 'Roboto', sans-serif;
+  width: 1440px;
+  margin: 0px;
+}
+.main-header  {
+  background-color: #eeeeee;
+  margin: auto;
+}
+.main-navigation li {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(60px/16px);
+  text-transform: uppercase;
+  }
+#logo {
+  position: relative;
+  top: 49px;
+  left: 140px;
+}
+#Studio {
+  position: relative;
+  left: 500px;
+}
+#Customers {
+  position: relative;
+  left: 611px;
+  bottom: 19px;
+}
+#Shop {
+  position: relative;
+  left: 735px;
+  bottom: 38px;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+}
+#Basket {
+  position: relative;
+  left: 1208px;
+  bottom: 82px;
+}
+#Contacts {
+  position: relative;
+  left: 855px;
+  bottom: 64px;
+}
+#icon {
+  position: relative;
+  left: 1170px;
+  bottom: 100px;
+}
+.title-item {
+  background-color: #eeeeee;
+  position: relative;
+  bottom: 100px;
+}
+.desc {
+  float: left; width: 520px;
+  margin-top: 85px;
+  text-align: center;
+  font-size: 20px;
+}
+.desc p {
+  font-size: 14px;
+}
+.desc a {
+  background-color: #fb565a;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  width: 240px;
+  height: 50px;
+  color: white;
+  position: relative;
+  padding-top: 15px;
+  top: 30px;
+  right: 45px;
+}
+.img1 {
+  float: right; width: 920px;
+}
+.slider-indicator {
+  display: inline-block;
+  position: relative;
+  top: 320px;
+  left: 630px;
+}
+.slider2 {
+  display: none;
+}
+.slider3 {
+  display: none;
+}
+.catalog-item {
+  float: left; width: 1440px;
+  display: inline-block;
+}
+#illustration-1 {
+  position: relative;
+  left: 140px;
+}
+.desc-catalog {
+  position: relative;
+  left: 140px;
+}
+.desc-catalog p {
+  font-size: 14px;
+}
+.desc-catalog a {
+  background-color: #fb565a;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  width: 160px;
+  height: 50px;
+  color: white;
+  position: relative;
+  padding-top: 15px;
+  top: 30px;
+}
+#illustration-2 {
+  position: relative;
+  left: 540px;
+  bottom: 317px;
+}
+#dc2 {
+  position: relative;
+  left: 540px;
+  bottom: 317px;
+}
+#dc2 a {
+  background-color: #00CA74;
+}
+#illustration-3 {
+  position: relative;
+  left: 940px;
+  bottom: 637px;
+}
+#dc3 {
+  position: relative;
+  left: 940px;
+  bottom: 637px;
+}
+#dc3 a {
+  background-color: #EFC849;
+}
+.decor {
+  border-top: 2px solid #EDEDED;
+  border-bottom: 2px solid #EDEDED;
+  padding-bottom: 53px;
+  padding-top: 63px;
+}
+#htmlad {
+  position: relative;
+  left: 171px;
+}
+#borodinski {
+  position: relative;
+  left: 271px;
+}
+#pink {
+  position: relative;
+  left: 371px;
+  bottom: 25px;
+}
+#mishka {
+  position: relative;
+  left: 471px;
+}
+#map {
+  margin-top: 50px;
+}
+.marker {
+  position: relative;
+  left: 820px;
+  bottom: 330px;
+}
+.footer-copirite {
+  text-align: center;
+}
+.footer-copirite p {
+  position: relative;
+  right: 52px;
+  font-size: 12px;
+}
+.adress {
+width: 320px;
+height: 310px;
+background: white;
+position: relative;
+bottom: 560px;
+left: 140px;
+text-align: center;
+padding-top: 55px; 
+}
+#btn {
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 1px solid white;
+  background-color: #FB565A;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 49px;
+  color: white;
+  position: relative;
+  bottom: 20px;
+}
+.footer-social {
+  display: inline-block;
+  position: relative;
+  bottom: 400px;
+  left: 140px;
+  margin-bottom: auto;
+}
+#vk {
+  position: relative;
+  right: 58px;
+  bottom: 30px;
+}
+#fb {
+  position: relative;
+  right: 50px;
+  left: 40px;
+  bottom: 113px;
+}
+#inst {
+  position: relative;
+  right: 55px;
+  bottom: 195px;
+  left: 125px;
+}
+#fb1 {
+  position: relative;
+  bottom: 83px;
+  left: 90px;
+}
+#inst1 {
+  position: relative;
+  bottom: 165px;
+  left: 180px;
+}
+.footer-copirite {
+  display: inline-block;
+  position: relative;
+  bottom: 570px;
+  left: 540px;
+  margin-bottom: auto;
 }
