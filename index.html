@@ -18,7 +18,10 @@
 					<li><a href="#">Клиенты</a></li>
 					<li><a href="#">Магазин</a></li>
 					<li><a href="#">Контакты</a></li>
-					<li><a href="#" class="Basket">Корзина</a></li>
+					<li>
+                    <img src="img/cart-icon.png" id="icon">
+                    <a href="">Корзина</a>
+                	</li>
 				</ul>
 			</nav>
 		</div>
@@ -27,9 +30,9 @@
 		<div class="container">
 			<div class="title-item">
 			<div class="slider-indicator">
-				<label><input type="radio" name="time" value="slider1" checked></label>
-				<label><input type="radio" name="time" value="slider2"></label>
-				<label><input type="radio" name="time" value="slider3"></label>
+				<label><input type="radio" name="slider" value="slider1" checked></label>
+				<label><input type="radio" name="slider" value="slider2"></label>
+				<label><input type="radio" name="slider" value="slider3"></label>
 			</div>	
 				<div class="photos-controls">
 					<div class="slider">
@@ -40,7 +43,7 @@
 				<a href="#">Узнать больше</a>
 					</div>
 					</div>
-					<div class="slider">
+					<div class="slider" id="slider23">
 					<img src="img/slide2.png" alt="slide2" width="663px" height="430px">
 					<div class="desc">
 						<h1>Любим математику<br> как никто другой</h1>
@@ -48,7 +51,7 @@
 						<a href="#">Узнать больше</a>
 					</div>
 					</div>
-					<div class="slider">
+					<div class="slider" id="slider23">
 						<img src="img/slide3.png" alt="slide3" width="759px" height="411px">
 						<div class="desc">
 						<h1>Только ночь,<br> только хардкор</h1>
@@ -73,7 +76,7 @@
 					<div class="desc-catalog" id="dc2">
 						<h2>Приложения</h2>
 						<p>Покорите топ-10 приложений в<br> AppStore и 	Google Play</p>
-						<a href="#">Заказать</a>
+						<a href="#" id="green">Заказать</a>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -82,7 +85,7 @@
 					<div class="desc-catalog" id="dc3">
 						<h2>Презентации</h2>
 						<p>Вы даже не подозреваете,<br> насколько вы изумительны!</p>
-						<a href="#">Заказать</a>
+						<a href="#" id="yellow">Заказать</a>
 					</div>	
 				</div>	
 			</div>

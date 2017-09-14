@@ -463,12 +463,12 @@ body {
 }
 .logo {
   float: left;
-  margin-top: 39px;
+  margin-top: 25px;
   margin-right: 100px;
 }
 .main-navigation {
   float: left;
-  margin-top: 115px;
+  margin-top: 82px;
 }
 .menu {
   padding: 0;
@@ -481,7 +481,11 @@ body {
   margin-right: 48px;
 }
 .menu li:last-child {
+  margin-left: 242px;
   margin-right: 0; 
+}
+#icon {
+  margin-right: 20px;
 }
 .menu a {
   color: black;
@@ -494,9 +498,32 @@ body {
 }
 .slider {
   float: left;
+  position: absolute;
+  bottom: 353px;
 }
 .slider .desc {
   float: left;
+  margin-top: 23px;
+}
+.slider-indicator {
+  position: absolute;
+  top: 440px;
+  left: 585px;
+}
+.desc {
+  display: inline-block;
+}
+.desc a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #fb565a;
+  width: 240px;
+  height: 50px;
+  margin-top: 40px;
 }
 .catalog-item {
   float: left;
@@ -506,6 +533,26 @@ body {
 }
 .catalog :last-child {
   margin-right: 0;
+}
+.desc-catalog a {
+    display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #fb565a;
+  width: 160px;
+  height: 50px;
+}
+#green {
+  background-color: #00ca74;
+}
+#yellow {
+  background-color: #efc849;
+}
+ {
+  background-color: #efc849;
 }
 .future {
   float: left;
@@ -595,4 +642,7 @@ h2 {
 }
 .copirate p {
   text-align: center; 
+}
+#slider23 {
+  display: none;
 }
