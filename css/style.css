@@ -498,8 +498,6 @@ body {
 }
 .slider {
   float: left;
-  position: absolute;
-  bottom: 353px;
 }
 .slider .desc {
   float: left;
@@ -643,6 +641,9 @@ h2 {
 .copirate p {
   text-align: center; 
 }
-#slider23 {
+.slider2 {
+  display: none;
+}
+.slider3 {
   display: none;
 }
