@@ -484,7 +484,7 @@ body {
   margin-left: 242px;
   margin-right: 0; 
 }
-#icon {
+.icon {
   margin-right: 20px;
 }
 .menu a {
@@ -492,9 +492,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px; 
-}
-.Basket {
-  margin-left: 281px;
 }
 .slider {
   float: left;
