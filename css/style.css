@@ -498,6 +498,10 @@ body {
   top: 132px;
   z-index: 1;
 }
+.slider img {
+  position: relative;
+  left: 50px;
+}
 .slider .desc {
   float: left;
   margin-top: 23px;
@@ -505,7 +509,7 @@ body {
 .slider-indicator {
   position: absolute;
   top: 440px;
-  left: 595px;
+  left: 645px;
   z-index: 2;
 }
 .desc {
@@ -614,11 +618,14 @@ h2 {
 #logo-decor {
   margin-top: 10px;
 }
+.map {
+  float: left;
+}
 .adress {
   width: 319px;
   height: 308px;
   position: absolute;
-  top: 1840px;
+  top: 1860px;
   text-align: center;
   border: 1px solid white;
   background: white;
@@ -642,8 +649,8 @@ h2 {
 .map-marker {
   width: 156px;
   position: absolute;
-  top: 1880px;
-  left: 819px;
+  top: 1895px;
+  left: 820px;
   margin: 0 auto;
 }
 .copirate h3 {
