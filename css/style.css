@@ -466,6 +466,14 @@ body {
   margin-top: 25px;
   margin-right: 100px;
 }
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: inline-block;
+}
+.clearfix:after {
+   clear: both;
+}
 .main-navigation {
   float: left;
   margin-top: 82px;
