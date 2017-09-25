@@ -450,7 +450,7 @@ template {
 }
 body {
 	font-family: 'Roboto', sans-serif;
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 .main-header {
@@ -458,13 +458,13 @@ body {
   height: 545px;
 }
 .container {
-  width: 1160px;
+  width: 80.6%;
   margin: 0 auto;
 }
 .logo {
   float: left;
   margin-top: 25px;
-  margin-right: 100px;
+  margin-right: 13.9%;
 }
 .clearfix:before,
 .clearfix:after {
@@ -489,7 +489,7 @@ body {
   margin-right: 48px;
 }
 .menu li:last-child {
-  margin-left: 242px;
+  margin-left: 163px;
   margin-right: 0; 
 }
 .icon {
@@ -499,7 +499,7 @@ body {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px; 
+  font-size: 14px;
 }
 .slider {
   position: absolute;
@@ -508,16 +508,17 @@ body {
 }
 .slider img {
   position: relative;
-  left: 50px;
+  right: 10px;
 }
 .slider .desc {
   float: left;
+  width: 365px;
   margin-top: 23px;
 }
 .slider-indicator {
   position: absolute;
   top: 440px;
-  left: 645px;
+  left: 590px;
   z-index: 2;
 }
 .slider-indicator input {
@@ -525,6 +526,12 @@ body {
 }
 .desc {
   display: inline-block;
+}
+.desc h1 {
+  font-size: 40px;
+}
+.desc p {
+  font-size: 14px;
 }
 .desc a {
   display: inline-block;
@@ -540,12 +547,21 @@ body {
 }
 .catalog-item {
   float: left;
-  margin-right: 100px;
+  margin-right: 5.7%;
   margin-top: 81px;
   margin-bottom: 80px;
 }
 .catalog :last-child {
   margin-right: 0;
+}
+.desc-catalog {
+  width: 76.4%;
+}
+.desc-catalog p {
+  width: 250px;
+}
+.desc-catalog h2 {
+  font-size: 26px;
 }
 .desc-catalog a {
   display: inline-block;
@@ -557,6 +573,7 @@ body {
   background-color: #fb565a;
   width: 160px;
   height: 50px;
+  margin-top: 20px;
 }
 #green {
   background-color: #00ca74;
@@ -573,10 +590,32 @@ body {
 }
 .information h2 {
   font-size: 34px;
+  width: 514px;
+}
+.information p {
+  width: 538px;
+  margin-bottom: 50px;
+}
+.information ul {
+  list-style: none;
+}
+.information li {
+  position: relative;
+  margin-top: 35px;
+}
+.orders li:before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  background-color: red;
+  top: 7px;
+  left: -35px;
+
 }
 .future .statistic {
     float: left;
-    width: 500px;
+    width: 470px;
     height: 526px;
     text-align: right;
 }
@@ -623,19 +662,22 @@ h2 {
 }
 .decor img {
   float: left;
-  margin-right: 96px;
+  margin-right: 60px;
 }
-#logo-decor {
+.logo-decor {
   margin-top: 10px;
 }
 .map {
   float: left;
 }
+.maps {
+  width: 100%;
+}
 .adress {
-  width: 319px;
-  height: 308px;
+  width: 288px;
+  height: 264px;
   position: absolute;
-  top: 1860px;
+  top: 1835px;
   text-align: center;
   border: 1px solid white;
   background: white;
@@ -643,6 +685,8 @@ h2 {
 .adress p {
   color: #8f8f8f;
   margin-top: 40px;
+  width: 251px;
+  padding-left: 50px;
 }
 .adress a {
   display: inline-block;
@@ -659,8 +703,8 @@ h2 {
 .map-marker {
   width: 156px;
   position: absolute;
-  top: 1895px;
-  left: 820px;
+  top: 1850px;
+  left: 713px;
   margin: 0 auto;
 }
 .copirate h3 {
