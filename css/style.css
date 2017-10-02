@@ -457,26 +457,24 @@ body {
   background-color: #eeeeee;
   height: 545px;
 }
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  height: 175px;
+}
 .container {
   width: 80.6%;
   margin: 0 auto;
 }
 .logo {
-  float: left;
-  margin-top: 25px;
-  margin-right: 13.9%;
-}
-.clearfix:before,
-.clearfix:after {
-   content: "";
-   display: inline-block;
-}
-.clearfix:after {
-   clear: both;
+  display: inline-block;
+  margin-top: 20px;
 }
 .main-navigation {
-  float: left;
-  margin-top: 82px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
 }
 .menu {
   padding: 0;
@@ -484,12 +482,11 @@ body {
   display: inline-block;
 }
 .menu li {
-  float: left;
   display: inline-block;
   margin-right: 48px;
 }
 .menu li:last-child {
-  margin-left: 163px;
+  margin-left: 160px;
   margin-right: 0; 
 }
 .icon {
@@ -524,9 +521,6 @@ body {
 .slider-indicator input {
   margin-right: 17px;
 }
-.desc {
-  display: inline-block;
-}
 .desc h1 {
   font-size: 40px;
 }
@@ -545,11 +539,51 @@ body {
   height: 50px;
   margin-top: 40px;
 }
+.catalog {
+  display: flex;
+  justify-content: space-around;
+}
 .catalog-item {
-  float: left;
   margin-right: 5.7%;
   margin-top: 81px;
   margin-bottom: 80px;
+}
+  .decor {
+    display: inline-block;
+  width: 100%;
+  padding-top: 53px;
+  padding-bottom: 50px;
+  margin-bottom: 60px;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+.logo-decor {
+  margin-top: 10px;
+}
+.decor ul {
+  padding-left: 0px;
+}
+.decor li:first-child {
+    margin-left: 0;
+    border-left: 0;
+}
+.decor li {
+    padding-right: 41px;
+    padding-left: 41px;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    list-style-type: none;
+    height: 60px;
+    width: 25%;
+    float: left;
+}
+.decor li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0;
+    padding-bottom: 10px;
 }
 .catalog :last-child {
   margin-right: 0;
@@ -582,11 +616,12 @@ body {
   background-color: #efc849;
 }
 .future {
-  float: left;
+  display: flex;
   border-top: 2px solid #eeeeee;
 }
 .information {
-  float: left;
+  display: flex;
+  flex-direction: column;
 }
 .information h2 {
   font-size: 34px;
@@ -614,10 +649,12 @@ body {
 
 }
 .future .statistic {
-    float: left;
+    display: flex;
+    flex-direction: column;
     width: 470px;
     height: 526px;
     text-align: right;
+    margin: 0 auto;
 }
 figure {
   margin: 0;
@@ -651,25 +688,6 @@ h2 {
     font-size: 16px;
     text-transform: none;
 }
-.decor {
-  float: left;
-  width: 100%;
-  padding-top: 53px;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
-  border-top: 2px solid #eeeeee;
-  border-bottom: 2px solid #eeeeee;
-}
-.decor img {
-  float: left;
-  margin-right: 60px;
-}
-.logo-decor {
-  margin-top: 10px;
-}
-.map {
-  float: left;
-}
 .maps {
   width: 100%;
 }
@@ -677,7 +695,7 @@ h2 {
   width: 288px;
   height: 264px;
   position: absolute;
-  top: 1835px;
+  top: 1895px;
   text-align: center;
   border: 1px solid white;
   background: white;
@@ -703,8 +721,8 @@ h2 {
 .map-marker {
   width: 156px;
   position: absolute;
-  top: 1850px;
-  left: 713px;
+  top: 1905px;
+  left: 714px;
   margin: 0 auto;
 }
 .copirate h3 {
@@ -720,7 +738,7 @@ h2 {
   display: none;
 }
 .footer-social {
-  float: left;
+  display: inline-block;
   margin-right: 140px;
   margin-top: 69px;
 }
@@ -728,7 +746,7 @@ h2 {
   display: inline-block;
 }
 .footer-copirite {
-  float: left;
+  display: inline-block;
   margin-top: 39px;
 }
 .footer-copirite h2 {
@@ -741,5 +759,4 @@ h2 {
   font-weight: 300;
   line-height: 25px;
   margin-top: 0px;
-  margin-bottom: 70px;
 }
