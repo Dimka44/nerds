@@ -500,19 +500,36 @@ body {
 }
 .slider-1 {
   position: absolute;
-  top: 132px;
+  top: 131px;
+  left: 470px;
   z-index: 1;
   display: none;
 }
 .slider-1 .desc {
-  float: left;
+  position: absolute;
+  top: 0px;
+  left: -350px;
   width: 365px;
   margin-top: 23px;
 }
-.slider-indicator {
+.slider-2 .desc {
   position: absolute;
-  top: 440px;
-  left: 590px;
+  top: 0px;
+  left: -350px;
+  width: 365px;
+  margin-top: 23px;
+}
+.slider-3 .desc {
+  position: absolute;
+  top: 0px;
+  left: -350px;
+  width: 365px;
+  margin-top: 23px;
+}
+.slider-indicator input {
+  position: relative;
+  bottom: 100px;
+  left: 550px;
   z-index: 2;
 }
 .slider-indicator input {
@@ -739,9 +756,17 @@ h2 {
   text-align: center; 
 }
 .slider-2 {
+  position: absolute;
+  top: 114px;
+  left: 470px;
+  z-index: 1;
   display: none;
 }
 .slider-3 {
+  position: absolute;
+  top: 131px;
+  left: 470px;
+  z-index: 1;
   display: none;
 }
 .footer-social {
