@@ -498,16 +498,13 @@ body {
   text-transform: uppercase;
   font-size: 14px;
 }
-.slider {
+.slider-1 {
   position: absolute;
   top: 132px;
   z-index: 1;
+  display: none;
 }
-.slider img {
-  position: relative;
-  right: 10px;
-}
-.slider .desc {
+.slider-1 .desc {
   float: left;
   width: 365px;
   margin-top: 23px;
@@ -520,6 +517,15 @@ body {
 }
 .slider-indicator input {
   margin-right: 17px;
+}
+#slider1:checked ~ .photos-controls .slider-1 {
+  display: block;
+}
+#slider2:checked ~ .photos-controls .slider-2 {
+  display: block;
+}
+#slider3:checked ~ .photos-controls .slider-3 {
+  display: block;
 }
 .desc h1 {
   font-size: 40px;
@@ -732,10 +738,10 @@ h2 {
 .copirate p {
   text-align: center; 
 }
-.slider2 {
+.slider-2 {
   display: none;
 }
-.slider3 {
+.slider-3 {
   display: none;
 }
 .footer-social {
