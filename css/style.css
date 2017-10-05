@@ -619,7 +619,8 @@ body {
   width: 250px;
 }
 .desc-catalog h2 {
-  font-size: 26px;
+  text-transform: uppercase;
+  font-size: 24px;
 }
 .desc-catalog a {
   display: inline-block;
@@ -681,7 +682,7 @@ body {
     margin: 0 auto;
 }
 figure {
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 h4 {
   font-size: 16px;
@@ -717,7 +718,7 @@ h2 {
 }
 .adress {
   width: 288px;
-  height: 264px;
+  height: 300px;
   position: absolute;
   top: 1895px;
   text-align: center;
@@ -740,7 +741,6 @@ h2 {
   background-color: #fb565a;
   width: 220px;
   height: 50px;
-  margin-top: 40px;
 }
 .map-marker {
   width: 156px;
@@ -780,6 +780,7 @@ h2 {
 .footer-copirite {
   display: inline-block;
   margin-top: 39px;
+  margin-bottom: 70px;
 }
 .footer-copirite h2 {
   font-size: 36px;
