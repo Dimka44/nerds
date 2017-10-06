@@ -474,7 +474,9 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
+}
+.menu a:hover {
+  border-bottom: 2px solid red;
 }
 .menu {
   padding: 0;
