@@ -574,12 +574,12 @@ body {
   margin-bottom: 80px;
 }
   .decor {
-    display: inline-block;
+  display: inline-block;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 60px;
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 85px;
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
 }
@@ -598,18 +598,18 @@ body {
     padding-left: 41px;
     vertical-align: middle;
     text-align: center;
-    border-right: 1px solid #eeeeee;
-    border-left: 1px solid #eeeeee;
+    border-right: 2px solid #eeeeee;
     list-style-type: none;
     height: 60px;
     width: 25%;
     float: left;
 }
 .decor li:last-child {
+    position: relative;
+    bottom: 10px;
     padding-right: 0;
     margin-right: 0;
     border-right: 0;
-    padding-bottom: 10px;
 }
 .catalog :last-child {
   margin-right: 0;
@@ -722,7 +722,7 @@ h2 {
   width: 288px;
   height: 300px;
   position: absolute;
-  top: 1895px;
+  top: 1930px;
   text-align: center;
   border: 1px solid white;
   background: white;
@@ -794,4 +794,78 @@ h2 {
   font-weight: 300;
   line-height: 25px;
   margin-top: 0px;
+}
+.modal {
+  position: absolute;
+  top: 1755px;
+  left: 205px;
+  border: 1px solid #eeeeee;
+  box-shadow: -5px 20px 35px #7b7c7c;
+  width: 925px;
+  height: 550px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  display: none;
+}
+.open {
+  display: block;
+}
+.form-modal {
+  width: 760px;
+  height: 440px;
+  margin: 0 auto;
+}
+.form-modal p {
+  font-weight: bold;
+}
+.form-modal input {
+  width: 360px;
+  height: 46px;
+  padding-left: 10px;
+  color: #bababa;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.you-name,
+.you-email {
+  width: 360px;
+}
+.user-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.form-modal textarea {
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  color: #bababa;
+  padding: 10px 0 0 10px;
+  width: 760px;
+  height: 118px;
+}
+.send {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 47px;
+  text-align: center;
+  background-color: #fb565a;
+  width: 260px;
+  height: 50px;
+}
+.close {
+  border: none;
+  background: #ffffff;
+  position: relative;
+  bottom: 415px;
+  left: 475px;
+  color: #fecccd;
+}
+.close button:hover {
+  color: red;
 }

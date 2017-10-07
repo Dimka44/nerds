@@ -126,21 +126,21 @@
 			</div>
 				<!--Логотипы сайтов(decor)-->
 				<div class="decor">
-				<ul>
+                <ul>
 					<li>
-					<img src="img/logo-1.png" alt="logo1" width="199px" height="68px">
+					<img src="img/logo-1.png" alt="logo1" width="190px">
 					</li>
 					<li>
-					<img src="img/logo-2.png" alt="logo2" width="209px" height="87px">
+					<img src="img/logo-2.png" alt="logo2" width="190px">
 					</li>
 					<li>
-					<img src="img/logo-3.png" alt="logo3" width="185px" height="52px" class="logo-decor">
+					<img src="img/logo-3.png" alt="logo3" width="190px" class="logo-decor">
 					</li>
 					<li>
-					<img src="img/logo-4.png" alt="logo4" width="183px" height="84px">
+					<img src="img/logo-4.png" alt="logo4" width="190px">
 					</li>
 				</ul>
-				</div>
+            </div>
 		</div>
     		<div class="map">
         		<img src="img/maps.jpg" alt="Карта" class="maps">
@@ -154,9 +154,10 @@
 191186, Санкт-Петербург,
 ул. Б. Конюшенная, д. 19/8
 <p>тел. +7 (812) 275-75-75</p></p>
-		<a href="#">Напишите нам</a>
+		<a href="#" class="link">Напишите нам</a>
      </section>
  	</footer>
+ 	<footer>
      	<section class="footer-social">
      	<div class="vk">
      		<a class="social-btn social-btn-vk" href="#" id="vk">
@@ -180,5 +181,21 @@
      	</section>
      </div>
      </footer>
-</body>
+     <div class="container">
+ <div class="modal">
+     <form class="form-modal" action="">
+     	<h1>Напишите нам</h1>
+     	<div class="user-data">
+     	<p class="you-name">Ваше имя: <input type="text" name="name" placeholder="Представьтесь пожалуйста"></p>
+     	<p class="you-email">Ваш e-mail: <input type="e-mail" placeholder="Для отправки ответа"></p>
+     	</div>
+     	<p>Текст письма:</p>
+     	<p><textarea name="text" cols="50" rows="6" id="text" placeholder="В свободной форме"></textarea></p>
+     		<button class="send">Отправить</button>
+     		<button class="close">X</button>
+     </form>
+ </div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+ </body>
 </html>
