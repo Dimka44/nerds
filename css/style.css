@@ -865,6 +865,6 @@ h2 {
   left: 475px;
   color: #fecccd;
 }
-.close button:hover {
+.close:hover {
   color: red;
 }
