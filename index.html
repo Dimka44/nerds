@@ -186,12 +186,12 @@
      <form class="form-modal" action="">
      	<h1>Напишите нам</h1>
      	<div class="user-data">
-     	<p class="you-name">Ваше имя: <input type="text" name="name" placeholder="Представьтесь пожалуйста"></p>
-     	<p class="you-email">Ваш e-mail: <input type="e-mail" placeholder="Для отправки ответа"></p>
+     	<p class="name"><label for="nam">Ваше имя:</label><input type="text" name="name" placeholder="Представьтесь пожалуйста" id="nam" required></p>
+     	<p class="you-email"><label for="email">Ваш e-mail:</label><input type="e-mail" placeholder="Для отправки ответа" id="email" required></p>
      	</div>
-     	<p>Текст письма:</p>
-     	<p><textarea name="text" cols="50" rows="6" id="text" placeholder="В свободной форме"></textarea></p>
-     		<button class="send">Отправить</button>
+     	<label for="text"><p>Текст письма:</p></label>
+     	<p><textarea id="text" name="text" cols="50" rows="6" id="text" placeholder="В свободной форме"></textarea></p>
+     		<button type="submit" class="send">Отправить</button>
      		<button class="close">X</button>
      </form>
  </div>
